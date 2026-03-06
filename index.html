@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiligenceGo - Inteligência Corporativa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .app-screenshot { 
+            width: 100%; 
+            height: auto; 
+            border-radius: 12px; 
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e2e8f0;
+        }
+        .section-gradient {
+            background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 font-sans text-slate-800">
+
+    <header class="bg-gradient-to-r from-slate-900 to-blue-900 text-white py-20 px-6 text-center shadow-2xl">
+        <div class="max-w-4xl mx-auto">
+            <img src="./img/icone.png" alt="Logo DiligenceGo" class="w-28 h-28 mx-auto mb-8 rounded-3xl shadow-2xl border-2 border-blue-400/20">
+            
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-4 tracking-tight italic">DiligenceGo</h1>
+            <p class="text-xl md:text-2xl text-blue-100 mb-10 font-light max-w-2xl mx-auto italic">
+                Sua ferramenta definitiva para diligência corporativa e dados da CVM.
+            </p>
+            
+            <div class="flex flex-col md:flex-row justify-center items-center gap-4">
+                <a href="https://play.google.com/store/apps/details?id=com.diligencego.app" target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-10 rounded-full text-lg transition duration-300 shadow-xl inline-flex items-center">
+                    <i class="fab fa-google-play mr-3"></i> Baixar na Play Store
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-16 px-6 max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 text-center hover:scale-105 transition-transform">
+                <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <i class="fas fa-bolt text-blue-600 text-2xl"></i>
+                </div>
+                <h3 class="font-bold text-xl mb-3">Agilidade Total</h3>
+                <p class="text-slate-600 leading-relaxed">Consulte e compartilhe dados oficiais via WhatsApp ou Email instantaneamente durante reuniões.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 text-center hover:scale-105 transition-transform">
+                <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <i class="fas fa-stopwatch text-green-600 text-2xl"></i>
+                </div>
+                <h3 class="font-bold text-xl mb-3">Eficiência Extrema</h3>
+                <p class="text-slate-600 leading-relaxed">Reduza o tempo de pesquisa em 95%. O que levava 60 minutos agora é feito em segundos.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 text-center hover:scale-105 transition-transform">
+                <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <i class="fas fa-shield-alt text-purple-600 text-2xl"></i>
+                </div>
+                <h3 class="font-bold text-xl mb-3">Plataforma Segura</h3>
+                <p class="text-slate-600 leading-relaxed">Login via Google e pagamentos geridos com a segurança total da Google Play Store.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-gradient py-20 px-6">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-extrabold text-center mb-16 text-slate-900 italic">Conheça a Aplicação</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+                
+                <div class="space-y-4">
+                    <img src="./img/busca.png" alt="Busca Inteligente" class="app-screenshot">
+                    <h4 class="font-bold text-2xl text-slate-900 italic">Busca Inteligente</h4>
+                    <p class="text-slate-600 text-sm">Pesquisa rápida por CNPJ ou Nome de empresas listadas na CVM.</p>
+                </div>
+
+                <div class="space-y-4">
+                    <img src="./img/resumo.png" alt="Aba Resumo" class="app-screenshot border-t-4 border-blue-400">
+                    <h4 class="font-bold text-2xl text-slate-900 italic">Aba Resumo</h4>
+                    <p class="text-blue-900/80 font-bold text-sm">Controle de Capital Social:</p>
+                    <ul class="text-xs text-slate-500 space-y-1 ml-2">
+                        <li><i class="fas fa-chevron-right text-[8px] mr-1"></i> Autorizado / Emitido</li>
+                        <li><i class="fas fa-chevron-right text-[8px] mr-1"></i> Subscrito / Integralizado</li>
+                    </ul>
+                </div>
+
+                <div class="space-y-4">
+                    <img src="./img/grupo.png" alt="Grupo Econômico" class="app-screenshot border-t-4 border-blue-700">
+                    <div class="flex items-center gap-2">
+                        <h4 class="font-bold text-2xl text-slate-900 italic">Grupo Econômico</h4>
+                        <span class="bg-blue-100 text-blue-700 text-[10px] px-2 py-0.5 rounded font-bold uppercase">Premium</span>
+                    </div>
+                    <p class="text-slate-600 text-sm">Mapeamento estruturado de participações e coligadas para análise de risco.</p>
+                </div>
+
+                <div class="space-y-4">
+                    <img src="./img/remuneracao.png" alt="Remuneração" class="app-screenshot border-t-4 border-yellow-500">
+                    <div class="flex items-center gap-2">
+                        <h4 class="font-bold text-2xl text-slate-900 italic">Remuneração</h4>
+                        <span class="bg-yellow-100 text-yellow-700 text-[10px] px-2 py-0.5 rounded font-bold uppercase">Premium</span>
+                    </div>
+                    <p class="text-slate-600 text-sm font-medium">Transparência na política salarial da diretoria e conselho.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-slate-900 text-white py-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-12 italic">Proteção e Privacidade</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="p-8 rounded-3xl bg-slate-800/50 border border-slate-700">
+                    <i class="fas fa-camera-slash text-4xl mb-6 text-blue-400"></i>
+                    <h5 class="text-xl font-bold mb-3">Anti-Screenshot</h5>
+                    <p class="text-slate-400 leading-relaxed">Bloqueio nativo de captura de tela para proteger a exclusividade dos dados estratégicos e relatórios premium.</p>
+                </div>
+                <div class="p-8 rounded-3xl bg-slate-800/50 border border-slate-700">
+                    <i class="fas fa-fingerprint text-4xl mb-6 text-green-400"></i>
+                    <h5 class="text-xl font-bold mb-3">Compliance Google</h5>
+                    <p class="text-slate-400 leading-relaxed">Autenticação e transações financeiras processadas com rigorosos padrões de segurança internacional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-20 px-6 text-center bg-white border-t border-slate-200">
+        <p class="text-slate-400 text-xs font-bold uppercase tracking-[0.2em] mb-6 italic">&copy; 2026 DiligenceGo - Inteligência em Dados Públicos</p>
+        <div class="flex justify-center gap-6">
+            <a href="https://play.google.com/store/apps/details?id=com.diligencego.app" target="_blank" class="text-blue-600 font-extrabold hover:text-blue-800 transition">
+                VISITAR PLAY STORE
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>
